@@ -10,4 +10,7 @@ export default defineConfig({
     define: {
         global: 'window', // needed by emoji-picker-react
     },
+    preview: {
+        port: 3000,
+    },
 })
