@@ -16,7 +16,7 @@ const ChatMessage = ({
         />
     ))
 
-    const Author = (
+    const Username = (
         <span className="font-semibold" style={{ color: author.rgbColor }}>
             {author.username}
         </span>
@@ -28,7 +28,7 @@ const ChatMessage = ({
         >
             <div className="inline-flex items-baseline">
                 {Badges}
-                {Author}
+                {Username}
             </div>
             <span className="ml-3 break-words">{content}</span>
         </div>
