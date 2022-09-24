@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-slate-800 text-white font-twitch;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+}
+
+@layer components {
+    aside.emoji-picker-react {
+        @apply shadow-none;
+    }
+
+    .emoji-picker-react input.emoji-search {
+        @apply text-black;
+    }
+}
